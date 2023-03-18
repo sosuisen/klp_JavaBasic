@@ -9,13 +9,13 @@ public class Main {
 		JFrame f = new JFrame();
 
 		showButton = new JButton("リスト表示");
-		showButton.setBounds(90, 100, 180, 40);
+		showButton.setBounds(50, 50, 200, 50);
 		showButton.addActionListener(e -> {
 			memberList.show();
 		});
 		f.add(showButton);
 
-		f.setSize(400, 400);
+		f.setSize(300, 200);
 		f.setLayout(null);
 		f.setVisible(true);
 	}
